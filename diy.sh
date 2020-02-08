@@ -11,6 +11,6 @@ git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/Lienol/openwrt-package package/openwrt-package
 pwd
-cd $OPENWRT
+cd /home/runner/work/openwrt-D1/openwrt-D1/openwrt
 ./scripts/feeds update -a
 ./scripts/feeds install -a
